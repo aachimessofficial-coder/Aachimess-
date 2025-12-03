@@ -1,10 +1,21 @@
-<picture>
-    <!-- Mobile banner -->
-    <source srcset="mobile-banner.jpg" media="(max-width: 767px)">
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jaden Media Solutions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
-    <!-- Desktop banner -->
-    <source srcset="desktop-banner.jpg" media="(min-width: 768px)">
+<picture>
+    <!-- Mobile -->
+    <source media="(max-width: 767px)" srcset="mobile-banner.jpg">
+
+    <!-- Desktop -->
+    <source media="(min-width: 768px)" srcset="desktop-banner.jpg">
 
     <!-- Fallback image -->
     <img src="desktop-banner.jpg" alt="Banner" style="width:100%; display:block;">
 </picture>
+
+</body>
+</html>
